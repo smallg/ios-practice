@@ -29,7 +29,10 @@ static NSString *CellTableIdentifier = @"CellTableIdentifier";
                        @{@"Name":@"small5", @"Color":@"White"}];
     
     UITableView *tableView = (id)[self.view viewWithTag:1];
-    [tableView registerClass:[NameAndColorCell class] forCellReuseIdentifier:CellTableIdentifier];
+    //[tableView registerClass:[NameAndColorCell class] forCellReuseIdentifier:CellTableIdentifier];
+    tableView.rowHeight = 65;
+    UINib *nib = [UINib nibWithNibName:@"NameAndColorCell" bundle:nil];
+    [tableView registerNib:nib forCellReuseIdentifier:CellTableIdentifier];
     
     UIEdgeInsets contentInset = tableView.contentInset;
     contentInset.top = 20;

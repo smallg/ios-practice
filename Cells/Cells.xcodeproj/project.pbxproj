@@ -15,6 +15,7 @@
 		1FBDBAC31B69B29100067589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBAC11B69B29100067589 /* LaunchScreen.xib */; };
 		1FBDBACF1B69B29100067589 /* CellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBACE1B69B29100067589 /* CellsTests.m */; };
 		1FBDBADA1B69B63200067589 /* NameAndColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBAD91B69B63200067589 /* NameAndColorCell.m */; };
+		1FBDBADC1B6B066300067589 /* NameAndColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBADB1B6B066300067589 /* NameAndColorCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		1FBDBACE1B69B29100067589 /* CellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellsTests.m; sourceTree = "<group>"; };
 		1FBDBAD81B69B63200067589 /* NameAndColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameAndColorCell.h; sourceTree = "<group>"; };
 		1FBDBAD91B69B63200067589 /* NameAndColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameAndColorCell.m; sourceTree = "<group>"; };
+		1FBDBADB1B6B066300067589 /* NameAndColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameAndColorCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				1FBDBAB21B69B29000067589 /* Supporting Files */,
 				1FBDBAD81B69B63200067589 /* NameAndColorCell.h */,
 				1FBDBAD91B69B63200067589 /* NameAndColorCell.m */,
+				1FBDBADB1B6B066300067589 /* NameAndColorCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBDBADC1B6B066300067589 /* NameAndColorCell.xib in Resources */,
 				1FBDBABE1B69B29000067589 /* Main.storyboard in Resources */,
 				1FBDBAC31B69B29100067589 /* LaunchScreen.xib in Resources */,
 				1FBDBAC01B69B29000067589 /* Images.xcassets in Resources */,
