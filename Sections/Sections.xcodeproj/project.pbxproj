@@ -14,6 +14,10 @@
 		1FBDBAF71B6B098200067589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBAF61B6B098200067589 /* Images.xcassets */; };
 		1FBDBAFA1B6B098200067589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBAF81B6B098200067589 /* LaunchScreen.xib */; };
 		1FBDBB061B6B098200067589 /* SectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB051B6B098200067589 /* SectionsTests.m */; };
+		1FBDBB141B6B0FEB00067589 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBB131B6B0FEB00067589 /* sortednames.plist */; };
+		1FBDBB161B6B1DC000067589 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBDBB151B6B1DC000067589 /* UIKit.framework */; };
+		1FBDBB181B6B1DC900067589 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBDBB171B6B1DC900067589 /* Foundation.framework */; };
+		1FBDBB1A1B6B1DD400067589 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBDBB191B6B1DD400067589 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		1FBDBAFF1B6B098200067589 /* SectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBDBB041B6B098200067589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBDBB051B6B098200067589 /* SectionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionsTests.m; sourceTree = "<group>"; };
+		1FBDBB131B6B0FEB00067589 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		1FBDBB151B6B1DC000067589 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1FBDBB171B6B1DC900067589 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1FBDBB191B6B1DD400067589 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBDBB1A1B6B1DD400067589 /* CoreGraphics.framework in Frameworks */,
+				1FBDBB181B6B1DC900067589 /* Foundation.framework in Frameworks */,
+				1FBDBB161B6B1DC000067589 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +74,9 @@
 		1FBDBADD1B6B098200067589 = {
 			isa = PBXGroup;
 			children = (
+				1FBDBB191B6B1DD400067589 /* CoreGraphics.framework */,
+				1FBDBB171B6B1DC900067589 /* Foundation.framework */,
+				1FBDBB151B6B1DC000067589 /* UIKit.framework */,
 				1FBDBAE81B6B098200067589 /* Sections */,
 				1FBDBB021B6B098200067589 /* SectionsTests */,
 				1FBDBAE71B6B098200067589 /* Products */,
@@ -81,6 +95,7 @@
 		1FBDBAE81B6B098200067589 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				1FBDBB131B6B0FEB00067589 /* sortednames.plist */,
 				1FBDBAED1B6B098200067589 /* AppDelegate.h */,
 				1FBDBAEE1B6B098200067589 /* AppDelegate.m */,
 				1FBDBAF01B6B098200067589 /* ViewController.h */,
@@ -199,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FBDBB141B6B0FEB00067589 /* sortednames.plist in Resources */,
 				1FBDBAF51B6B098200067589 /* Main.storyboard in Resources */,
 				1FBDBAFA1B6B098200067589 /* LaunchScreen.xib in Resources */,
 				1FBDBAF71B6B098200067589 /* Images.xcassets in Resources */,
@@ -416,6 +432,7 @@
 				1FBDBB0B1B6B098200067589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FBDBB0C1B6B098200067589 /* Build configuration list for PBXNativeTarget "SectionsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +441,7 @@
 				1FBDBB0E1B6B098200067589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

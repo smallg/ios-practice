@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D5847B59-E439-4E2E-BC09-88639566032C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Sections</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>09FEE71E82BA3C66F7D1E6E24A4E9A04C5642925</key>
 		<string>https://github.com/smallg/ios-practice.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Sections/Sections.xcodeproj/project.xcworkspace</string>
+	<string>Sections/Sections.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>09FEE71E82BA3C66F7D1E6E24A4E9A04C5642925</key>
