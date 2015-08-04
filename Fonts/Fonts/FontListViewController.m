@@ -8,6 +8,7 @@
 
 #import "FontListViewController.h"
 #import "FavoritesList.h"
+#import "FontSizeViewController.h"
 
 @interface FontListViewController ()
 
@@ -62,6 +63,16 @@
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath{
     UIFont *font = [self fontForDisplayAtIndexPath:indexPath];
     return 25 + font.ascender - font.descender;
+}
+
+#pragma mark - Navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+    UIFont *font = [self fontForDisplayAtIndexPath:indexPath];
+    [segue.destinationViewController navigationItem].title = font.fontName;
+    
+    FontSizeViewController *sizesVC = segue.destinationViewController;
+    sizesVC.font= font;
 }
 
 @end

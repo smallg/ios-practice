@@ -16,6 +16,7 @@
 		1FBDBB4B1B6B471200067589 /* FavoritesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB4A1B6B471200067589 /* FavoritesList.m */; };
 		1FBDBB4E1B6B497000067589 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB4D1B6B497000067589 /* RootViewController.m */; };
 		1FBDBB511B70456700067589 /* FontListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB501B70456700067589 /* FontListViewController.m */; };
+		1FBDBB541B7051A100067589 /* FontSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB531B7051A100067589 /* FontSizeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		1FBDBB4D1B6B497000067589 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		1FBDBB4F1B70456700067589 /* FontListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontListViewController.h; sourceTree = "<group>"; };
 		1FBDBB501B70456700067589 /* FontListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontListViewController.m; sourceTree = "<group>"; };
+		1FBDBB521B7051A100067589 /* FontSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontSizeViewController.h; sourceTree = "<group>"; };
+		1FBDBB531B7051A100067589 /* FontSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontSizeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				1FBDBB4D1B6B497000067589 /* RootViewController.m */,
 				1FBDBB4F1B70456700067589 /* FontListViewController.h */,
 				1FBDBB501B70456700067589 /* FontListViewController.m */,
+				1FBDBB521B7051A100067589 /* FontSizeViewController.h */,
+				1FBDBB531B7051A100067589 /* FontSizeViewController.m */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -233,6 +238,7 @@
 				1FBDBB2D1B6B43FF00067589 /* AppDelegate.m in Sources */,
 				1FBDBB4E1B6B497000067589 /* RootViewController.m in Sources */,
 				1FBDBB2A1B6B43FF00067589 /* main.m in Sources */,
+				1FBDBB541B7051A100067589 /* FontSizeViewController.m in Sources */,
 				1FBDBB511B70456700067589 /* FontListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
