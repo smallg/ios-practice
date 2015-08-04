@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "FavoritesList.h"
+#import "FontListViewController.h"
 
 @interface RootViewController ()
 
@@ -96,6 +97,23 @@
         return 25 + font.ascender - font.descender;
     }else{
         return tableView.rowHeight;
+    }
+}
+
+#pragma mark - Navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:sender];
+    FontListViewController *listVC = segue.destinationViewController;
+    
+    if(indexPath.section == 0){
+        NSString *familyName = self.familyNames[indexPath.row];
+        listVC.fontNames = [[UIFont fontNamesForFamilyName:familyName] sortedArrayUsingSelector:@selector(compare:)];
+        listVC.navigationItem.title = familyName;
+        listVC.showFavorites = NO;
+    }else{
+        listVC.fontNames = self.favoritesList.favorites;
+        listVC.navigationItem.title = @"Favorites";
+        listVC.showFavorites = YES;
     }
 }
 

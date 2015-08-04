@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>E019CE57-9182-4B48-8325-01CAEAEF679A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Fonts</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>09FEE71E82BA3C66F7D1E6E24A4E9A04C5642925</key>
 		<string>https://github.com/smallg/ios-practice.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Fonts/Fonts.xcodeproj/project.xcworkspace</string>
+	<string>Fonts/Fonts.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>09FEE71E82BA3C66F7D1E6E24A4E9A04C5642925</key>

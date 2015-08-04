@@ -15,6 +15,7 @@
 		1FBDBB481B6B444600067589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBB471B6B444600067589 /* Main.storyboard */; };
 		1FBDBB4B1B6B471200067589 /* FavoritesList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB4A1B6B471200067589 /* FavoritesList.m */; };
 		1FBDBB4E1B6B497000067589 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB4D1B6B497000067589 /* RootViewController.m */; };
+		1FBDBB511B70456700067589 /* FontListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB501B70456700067589 /* FontListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		1FBDBB4A1B6B471200067589 /* FavoritesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesList.m; sourceTree = "<group>"; };
 		1FBDBB4C1B6B497000067589 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		1FBDBB4D1B6B497000067589 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1FBDBB4F1B70456700067589 /* FontListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontListViewController.h; sourceTree = "<group>"; };
+		1FBDBB501B70456700067589 /* FontListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				1FBDBB4A1B6B471200067589 /* FavoritesList.m */,
 				1FBDBB4C1B6B497000067589 /* RootViewController.h */,
 				1FBDBB4D1B6B497000067589 /* RootViewController.m */,
+				1FBDBB4F1B70456700067589 /* FontListViewController.h */,
+				1FBDBB501B70456700067589 /* FontListViewController.m */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				1FBDBB2D1B6B43FF00067589 /* AppDelegate.m in Sources */,
 				1FBDBB4E1B6B497000067589 /* RootViewController.m in Sources */,
 				1FBDBB2A1B6B43FF00067589 /* main.m in Sources */,
+				1FBDBB511B70456700067589 /* FontListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +420,7 @@
 				1FBDBB431B6B43FF00067589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FBDBB441B6B43FF00067589 /* Build configuration list for PBXNativeTarget "FontsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +429,7 @@
 				1FBDBB461B6B43FF00067589 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
