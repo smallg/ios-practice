@@ -9,6 +9,7 @@
 #import "FontListViewController.h"
 #import "FavoritesList.h"
 #import "FontSizeViewController.h"
+#import "FontInfoViewController.h"
 
 @interface FontListViewController ()
 
@@ -71,8 +72,14 @@
     UIFont *font = [self fontForDisplayAtIndexPath:indexPath];
     [segue.destinationViewController navigationItem].title = font.fontName;
     
-    FontSizeViewController *sizesVC = segue.destinationViewController;
-    sizesVC.font= font;
+//    if([segue.identifier isEqualToString:@"ShowFontInfo"]){
+        FontSizeViewController *sizesVC = segue.destinationViewController;
+        sizesVC.font= font;
+//    }else{
+//        FontInfoViewController *infoVC = segue.destinationViewController;
+//        infoVC.font = font;
+//        infoVC.favorite = [[FavoritesList sharedFavoritesList].favorites containsObject:font.fontName];
+//    }
 }
 
 @end
