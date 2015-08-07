@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBDBB991B743C5300067589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB981B743C5300067589 /* main.m */; };
+		1FBDBB9C1B743C5300067589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB9B1B743C5300067589 /* AppDelegate.m */; };
+		1FBDBB9F1B743C5300067589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB9E1B743C5300067589 /* ViewController.m */; };
+		1FBDBBA21B743C5300067589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBBA01B743C5300067589 /* Main.storyboard */; };
+		1FBDBBA41B743C5300067589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBBA31B743C5300067589 /* Images.xcassets */; };
+		1FBDBBA71B743C5300067589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBBA51B743C5300067589 /* LaunchScreen.xib */; };
+		1FBDBBB31B743C5300067589 /* Google_GCM_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBBB21B743C5300067589 /* Google_GCM_TestTests.m */; };
+		1FBDBBBD1B74401900067589 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBBBC1B74401900067589 /* Podfile */; };
+		A4E0108A68CE7690DE8000DF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D68637913DC66E9034763188 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FBDBBAD1B743C5300067589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBDBB8B1B743C5300067589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FBDBB921B743C5300067589;
+			remoteInfo = "Google GCM Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FBDBB931B743C5300067589 /* Google GCM Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google GCM Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBDBB971B743C5300067589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBDBB981B743C5300067589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FBDBB9A1B743C5300067589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FBDBB9B1B743C5300067589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FBDBB9D1B743C5300067589 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FBDBB9E1B743C5300067589 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FBDBBA11B743C5300067589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FBDBBA31B743C5300067589 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FBDBBA61B743C5300067589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FBDBBAC1B743C5300067589 /* Google GCM TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google GCM TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBDBBB11B743C5300067589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBDBBB21B743C5300067589 /* Google_GCM_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_GCM_TestTests.m; sourceTree = "<group>"; };
+		1FBDBBBC1B74401900067589 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		82DA7658D26830EECEFBB525 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8A26CD2B1ACFB318F7D753 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D68637913DC66E9034763188 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBDBB901B743C5300067589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E0108A68CE7690DE8000DF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBDBBA91B743C5300067589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBDBB8A1B743C5300067589 = {
+			isa = PBXGroup;
+			children = (
+				1FBDBBBC1B74401900067589 /* Podfile */,
+				1FBDBB951B743C5300067589 /* Google GCM Test */,
+				1FBDBBAF1B743C5300067589 /* Google GCM TestTests */,
+				1FBDBB941B743C5300067589 /* Products */,
+				AD1318089FAC5E825F0D12D1 /* Pods */,
+				9090E2AF99492227EEC44DC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBDBB941B743C5300067589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBB931B743C5300067589 /* Google GCM Test.app */,
+				1FBDBBAC1B743C5300067589 /* Google GCM TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBDBB951B743C5300067589 /* Google GCM Test */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBB9A1B743C5300067589 /* AppDelegate.h */,
+				1FBDBB9B1B743C5300067589 /* AppDelegate.m */,
+				1FBDBB9D1B743C5300067589 /* ViewController.h */,
+				1FBDBB9E1B743C5300067589 /* ViewController.m */,
+				1FBDBBA01B743C5300067589 /* Main.storyboard */,
+				1FBDBBA31B743C5300067589 /* Images.xcassets */,
+				1FBDBBA51B743C5300067589 /* LaunchScreen.xib */,
+				1FBDBB961B743C5300067589 /* Supporting Files */,
+			);
+			path = "Google GCM Test";
+			sourceTree = "<group>";
+		};
+		1FBDBB961B743C5300067589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBB971B743C5300067589 /* Info.plist */,
+				1FBDBB981B743C5300067589 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FBDBBAF1B743C5300067589 /* Google GCM TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBBB21B743C5300067589 /* Google_GCM_TestTests.m */,
+				1FBDBBB01B743C5300067589 /* Supporting Files */,
+			);
+			path = "Google GCM TestTests";
+			sourceTree = "<group>";
+		};
+		1FBDBBB01B743C5300067589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBBB11B743C5300067589 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9090E2AF99492227EEC44DC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D68637913DC66E9034763188 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD1318089FAC5E825F0D12D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82DA7658D26830EECEFBB525 /* Pods.debug.xcconfig */,
+				8C8A26CD2B1ACFB318F7D753 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FBDBB921B743C5300067589 /* Google GCM Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBDBBB61B743C5300067589 /* Build configuration list for PBXNativeTarget "Google GCM Test" */;
+			buildPhases = (
+				E85C9FE41162C324ED35F3B3 /* Check Pods Manifest.lock */,
+				1FBDBB8F1B743C5300067589 /* Sources */,
+				1FBDBB901B743C5300067589 /* Frameworks */,
+				1FBDBB911B743C5300067589 /* Resources */,
+				8ED53EBF8473A3CFA658691E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google GCM Test";
+			productName = "Google GCM Test";
+			productReference = 1FBDBB931B743C5300067589 /* Google GCM Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FBDBBAB1B743C5300067589 /* Google GCM TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBDBBB91B743C5300067589 /* Build configuration list for PBXNativeTarget "Google GCM TestTests" */;
+			buildPhases = (
+				1FBDBBA81B743C5300067589 /* Sources */,
+				1FBDBBA91B743C5300067589 /* Frameworks */,
+				1FBDBBAA1B743C5300067589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FBDBBAE1B743C5300067589 /* PBXTargetDependency */,
+			);
+			name = "Google GCM TestTests";
+			productName = "Google GCM TestTests";
+			productReference = 1FBDBBAC1B743C5300067589 /* Google GCM TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBDBB8B1B743C5300067589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Smallg;
+				TargetAttributes = {
+					1FBDBB921B743C5300067589 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1FBDBBAB1B743C5300067589 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1FBDBB921B743C5300067589;
+					};
+				};
+			};
+			buildConfigurationList = 1FBDBB8E1B743C5300067589 /* Build configuration list for PBXProject "Google GCM Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBDBB8A1B743C5300067589;
+			productRefGroup = 1FBDBB941B743C5300067589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBDBB921B743C5300067589 /* Google GCM Test */,
+				1FBDBBAB1B743C5300067589 /* Google GCM TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBDBB911B743C5300067589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDBBA21B743C5300067589 /* Main.storyboard in Resources */,
+				1FBDBBA71B743C5300067589 /* LaunchScreen.xib in Resources */,
+				1FBDBBBD1B74401900067589 /* Podfile in Resources */,
+				1FBDBBA41B743C5300067589 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBDBBAA1B743C5300067589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8ED53EBF8473A3CFA658691E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85C9FE41162C324ED35F3B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBDBB8F1B743C5300067589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDBB9F1B743C5300067589 /* ViewController.m in Sources */,
+				1FBDBB9C1B743C5300067589 /* AppDelegate.m in Sources */,
+				1FBDBB991B743C5300067589 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBDBBA81B743C5300067589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDBBB31B743C5300067589 /* Google_GCM_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FBDBBAE1B743C5300067589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FBDBB921B743C5300067589 /* Google GCM Test */;
+			targetProxy = 1FBDBBAD1B743C5300067589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FBDBBA01B743C5300067589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBDBBA11B743C5300067589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FBDBBA51B743C5300067589 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBDBBA61B743C5300067589 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FBDBBB41B743C5300067589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FBDBBB51B743C5300067589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBDBBB71B743C5300067589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DA7658D26830EECEFBB525 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google GCM Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FBDBBB81B743C5300067589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8A26CD2B1ACFB318F7D753 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Google GCM Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FBDBBBA1B743C5300067589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google GCM TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google GCM Test.app/Google GCM Test";
+			};
+			name = Debug;
+		};
+		1FBDBBBB1B743C5300067589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Google GCM TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google GCM Test.app/Google GCM Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBDBB8E1B743C5300067589 /* Build configuration list for PBXProject "Google GCM Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBDBBB41B743C5300067589 /* Debug */,
+				1FBDBBB51B743C5300067589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBDBBB61B743C5300067589 /* Build configuration list for PBXNativeTarget "Google GCM Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBDBBB71B743C5300067589 /* Debug */,
+				1FBDBBB81B743C5300067589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBDBBB91B743C5300067589 /* Build configuration list for PBXNativeTarget "Google GCM TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBDBBBA1B743C5300067589 /* Debug */,
+				1FBDBBBB1B743C5300067589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBDBB8B1B743C5300067589 /* Project object */;
+}
