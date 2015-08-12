@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FBDBC331B7B147200067589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBC321B7B147200067589 /* main.m */; };
+		1FBDBC361B7B147200067589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBC351B7B147200067589 /* AppDelegate.m */; };
+		1FBDBC391B7B147200067589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBC381B7B147200067589 /* ViewController.m */; };
+		1FBDBC3C1B7B147200067589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBC3A1B7B147200067589 /* Main.storyboard */; };
+		1FBDBC3E1B7B147200067589 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBC3D1B7B147200067589 /* Images.xcassets */; };
+		1FBDBC411B7B147200067589 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBDBC3F1B7B147200067589 /* LaunchScreen.xib */; };
+		1FBDBC4D1B7B147200067589 /* IngeoSDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBC4C1B7B147200067589 /* IngeoSDK_DemoTests.m */; };
+		98880A62B4F05576EA6CB87A /* libPods-IngeoSDK Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B91818DA113CB15954C140F5 /* libPods-IngeoSDK Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FBDBC471B7B147200067589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBDBC251B7B147200067589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FBDBC2C1B7B147200067589;
+			remoteInfo = "IngeoSDK Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FBDBC2D1B7B147200067589 /* IngeoSDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IngeoSDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBDBC311B7B147200067589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBDBC321B7B147200067589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1FBDBC341B7B147200067589 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1FBDBC351B7B147200067589 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1FBDBC371B7B147200067589 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1FBDBC381B7B147200067589 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1FBDBC3B1B7B147200067589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FBDBC3D1B7B147200067589 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FBDBC401B7B147200067589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FBDBC461B7B147200067589 /* IngeoSDK DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IngeoSDK DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FBDBC4B1B7B147200067589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBDBC4C1B7B147200067589 /* IngeoSDK_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IngeoSDK_DemoTests.m; sourceTree = "<group>"; };
+		42D0B71B0184885004AEA7FF /* Pods-IngeoSDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IngeoSDK Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IngeoSDK Demo/Pods-IngeoSDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		5B53F0FDCE9852DF18504A73 /* Pods-IngeoSDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IngeoSDK Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IngeoSDK Demo/Pods-IngeoSDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B91818DA113CB15954C140F5 /* libPods-IngeoSDK Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IngeoSDK Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FBDBC2A1B7B147200067589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98880A62B4F05576EA6CB87A /* libPods-IngeoSDK Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBDBC431B7B147200067589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FBDBC241B7B147200067589 = {
+			isa = PBXGroup;
+			children = (
+				1FBDBC2F1B7B147200067589 /* IngeoSDK Demo */,
+				1FBDBC491B7B147200067589 /* IngeoSDK DemoTests */,
+				1FBDBC2E1B7B147200067589 /* Products */,
+				798B1637CBBE7D361E8B3CA3 /* Pods */,
+				D6F00459723C2681215D86CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBDBC2E1B7B147200067589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBC2D1B7B147200067589 /* IngeoSDK Demo.app */,
+				1FBDBC461B7B147200067589 /* IngeoSDK DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FBDBC2F1B7B147200067589 /* IngeoSDK Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBC341B7B147200067589 /* AppDelegate.h */,
+				1FBDBC351B7B147200067589 /* AppDelegate.m */,
+				1FBDBC371B7B147200067589 /* ViewController.h */,
+				1FBDBC381B7B147200067589 /* ViewController.m */,
+				1FBDBC3A1B7B147200067589 /* Main.storyboard */,
+				1FBDBC3D1B7B147200067589 /* Images.xcassets */,
+				1FBDBC3F1B7B147200067589 /* LaunchScreen.xib */,
+				1FBDBC301B7B147200067589 /* Supporting Files */,
+			);
+			path = "IngeoSDK Demo";
+			sourceTree = "<group>";
+		};
+		1FBDBC301B7B147200067589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBC311B7B147200067589 /* Info.plist */,
+				1FBDBC321B7B147200067589 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FBDBC491B7B147200067589 /* IngeoSDK DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBC4C1B7B147200067589 /* IngeoSDK_DemoTests.m */,
+				1FBDBC4A1B7B147200067589 /* Supporting Files */,
+			);
+			path = "IngeoSDK DemoTests";
+			sourceTree = "<group>";
+		};
+		1FBDBC4A1B7B147200067589 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FBDBC4B1B7B147200067589 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		798B1637CBBE7D361E8B3CA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42D0B71B0184885004AEA7FF /* Pods-IngeoSDK Demo.debug.xcconfig */,
+				5B53F0FDCE9852DF18504A73 /* Pods-IngeoSDK Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D6F00459723C2681215D86CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B91818DA113CB15954C140F5 /* libPods-IngeoSDK Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FBDBC2C1B7B147200067589 /* IngeoSDK Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBDBC501B7B147200067589 /* Build configuration list for PBXNativeTarget "IngeoSDK Demo" */;
+			buildPhases = (
+				125CC44FB960B6708B34BF83 /* Check Pods Manifest.lock */,
+				1FBDBC291B7B147200067589 /* Sources */,
+				1FBDBC2A1B7B147200067589 /* Frameworks */,
+				1FBDBC2B1B7B147200067589 /* Resources */,
+				7F6F093BE6DA3C8781CB4E2C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IngeoSDK Demo";
+			productName = "IngeoSDK Demo";
+			productReference = 1FBDBC2D1B7B147200067589 /* IngeoSDK Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FBDBC451B7B147200067589 /* IngeoSDK DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBDBC531B7B147200067589 /* Build configuration list for PBXNativeTarget "IngeoSDK DemoTests" */;
+			buildPhases = (
+				1FBDBC421B7B147200067589 /* Sources */,
+				1FBDBC431B7B147200067589 /* Frameworks */,
+				1FBDBC441B7B147200067589 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FBDBC481B7B147200067589 /* PBXTargetDependency */,
+			);
+			name = "IngeoSDK DemoTests";
+			productName = "IngeoSDK DemoTests";
+			productReference = 1FBDBC461B7B147200067589 /* IngeoSDK DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBDBC251B7B147200067589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Smallg;
+				TargetAttributes = {
+					1FBDBC2C1B7B147200067589 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1FBDBC451B7B147200067589 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1FBDBC2C1B7B147200067589;
+					};
+				};
+			};
+			buildConfigurationList = 1FBDBC281B7B147200067589 /* Build configuration list for PBXProject "IngeoSDK Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBDBC241B7B147200067589;
+			productRefGroup = 1FBDBC2E1B7B147200067589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FBDBC2C1B7B147200067589 /* IngeoSDK Demo */,
+				1FBDBC451B7B147200067589 /* IngeoSDK DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FBDBC2B1B7B147200067589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDBC3C1B7B147200067589 /* Main.storyboard in Resources */,
+				1FBDBC411B7B147200067589 /* LaunchScreen.xib in Resources */,
+				1FBDBC3E1B7B147200067589 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBDBC441B7B147200067589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		125CC44FB960B6708B34BF83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F6F093BE6DA3C8781CB4E2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IngeoSDK Demo/Pods-IngeoSDK Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FBDBC291B7B147200067589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDBC391B7B147200067589 /* ViewController.m in Sources */,
+				1FBDBC361B7B147200067589 /* AppDelegate.m in Sources */,
+				1FBDBC331B7B147200067589 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FBDBC421B7B147200067589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FBDBC4D1B7B147200067589 /* IngeoSDK_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FBDBC481B7B147200067589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FBDBC2C1B7B147200067589 /* IngeoSDK Demo */;
+			targetProxy = 1FBDBC471B7B147200067589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FBDBC3A1B7B147200067589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBDBC3B1B7B147200067589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FBDBC3F1B7B147200067589 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FBDBC401B7B147200067589 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FBDBC4E1B7B147200067589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1FBDBC4F1B7B147200067589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FBDBC511B7B147200067589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D0B71B0184885004AEA7FF /* Pods-IngeoSDK Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IngeoSDK Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FBDBC521B7B147200067589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B53F0FDCE9852DF18504A73 /* Pods-IngeoSDK Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "IngeoSDK Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FBDBC541B7B147200067589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IngeoSDK DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IngeoSDK Demo.app/IngeoSDK Demo";
+			};
+			name = Debug;
+		};
+		1FBDBC551B7B147200067589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IngeoSDK DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IngeoSDK Demo.app/IngeoSDK Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBDBC281B7B147200067589 /* Build configuration list for PBXProject "IngeoSDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBDBC4E1B7B147200067589 /* Debug */,
+				1FBDBC4F1B7B147200067589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBDBC501B7B147200067589 /* Build configuration list for PBXNativeTarget "IngeoSDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBDBC511B7B147200067589 /* Debug */,
+				1FBDBC521B7B147200067589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBDBC531B7B147200067589 /* Build configuration list for PBXNativeTarget "IngeoSDK DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBDBC541B7B147200067589 /* Debug */,
+				1FBDBC551B7B147200067589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBDBC251B7B147200067589 /* Project object */;
+}
