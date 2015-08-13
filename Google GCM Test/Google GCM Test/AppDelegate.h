@@ -6,12 +6,16 @@
 //  Copyright (c) 2015 Smallg. All rights reserved.
 //
 
+#import <Google/CloudMessaging.h>
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, GGLInstanceIDDelegate, GCMReceiverDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property(nonatomic, strong) UIWindow *window;
+@property(nonatomic, readonly, strong) NSString *registrationKey;
+@property(nonatomic, readonly, strong) NSString *messageKey;
+@property(nonatomic, readonly, strong) NSString *gcmSenderID;
+@property(nonatomic, readonly, strong) NSDictionary *registrationOptions;
 
 @end
 
