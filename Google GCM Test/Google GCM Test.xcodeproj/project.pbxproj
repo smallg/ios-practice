@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F48AC651B7C430A00CFBD43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F48AC641B7C430A00CFBD43 /* GoogleService-Info.plist */; };
 		1F77A3981B7C2EC50083EE3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F77A3971B7C2EC50083EE3E /* GoogleService-Info.plist */; };
 		1FBDBB991B743C5300067589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB981B743C5300067589 /* main.m */; };
 		1FBDBB9C1B743C5300067589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB9B1B743C5300067589 /* AppDelegate.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F48AC641B7C430A00CFBD43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1F77A3971B7C2EC50083EE3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1FBDBB931B743C5300067589 /* Google GCM Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google GCM Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBDBB971B743C5300067589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		1FBDBB8A1B743C5300067589 = {
 			isa = PBXGroup;
 			children = (
+				1F48AC641B7C430A00CFBD43 /* GoogleService-Info.plist */,
 				1FBDBBBC1B74401900067589 /* Podfile */,
 				1FBDBB951B743C5300067589 /* Google GCM Test */,
 				1FBDBBAF1B743C5300067589 /* Google GCM TestTests */,
@@ -236,6 +239,7 @@
 				1F77A3981B7C2EC50083EE3E /* GoogleService-Info.plist in Resources */,
 				1FBDBBBD1B74401900067589 /* Podfile in Resources */,
 				1FBDBBA41B743C5300067589 /* Images.xcassets in Resources */,
+				1F48AC651B7C430A00CFBD43 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
