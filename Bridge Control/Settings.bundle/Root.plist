@@ -96,6 +96,20 @@
 			<key>Type</key>
 			<string>PSSliderSpecifier</string>
 		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Additional Info</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>More Setting</string>
+			<key>File</key>
+			<string>More</string>
+		</dict>
 	</array>
 	<key>StringsTable</key>
 	<string>Root</string>

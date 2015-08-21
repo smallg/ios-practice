@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#define kOfficerKey                    @"officer"
+#define kAuthorizationCodeKey          @"authorizationCode"
+#define kRankKey                       @"rank"
+#define kWarpDriveKey                  @"warp"
+#define kWarpFactorKey                 @"warpFactor"
+#define kFavoriteTeaKey                @"favoriteTea"
+#define kFavoriteCaptainKey            @"favoriteCaptain"
+#define kFavoriteGadgetKey             @"favoriteGadget"
+#define kFavoriteAlienKey              @"favoriteAlien"
+
 @interface ViewController : UIViewController
 
 
