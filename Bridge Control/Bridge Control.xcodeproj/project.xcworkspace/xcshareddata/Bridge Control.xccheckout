@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>B36FD2B5-43F5-49DB-AA94-8BEE873ED9F2</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Bridge Control</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>09FEE71E82BA3C66F7D1E6E24A4E9A04C5642925</key>
 		<string>https://github.com/smallg/ios-practice.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Bridge Control/Bridge Control.xcodeproj/project.xcworkspace</string>
+	<string>Bridge Control/Bridge Control.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>09FEE71E82BA3C66F7D1E6E24A4E9A04C5642925</key>

@@ -75,18 +75,24 @@
 			<string>PSToggleSwitchSpecifier</string>
 		</dict>
 		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Warp Factor</string>
+		</dict>
+		<dict>
 			<key>DefaultValue</key>
-			<real>0.5</real>
+			<integer>5</integer>
 			<key>Key</key>
-			<string>slider_preference</string>
+			<string>warpFactor</string>
 			<key>MaximumValue</key>
 			<integer>1</integer>
 			<key>MaximumValueImage</key>
-			<string></string>
+			<string>rabbit</string>
 			<key>MinimumValue</key>
-			<integer>0</integer>
+			<integer>10</integer>
 			<key>MinimumValueImage</key>
-			<string></string>
+			<string>turtle</string>
 			<key>Type</key>
 			<string>PSSliderSpecifier</string>
 		</dict>
