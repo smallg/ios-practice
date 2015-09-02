@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1F48AC651B7C430A00CFBD43 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F48AC641B7C430A00CFBD43 /* GoogleService-Info.plist */; };
-		1F77A3981B7C2EC50083EE3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F77A3971B7C2EC50083EE3E /* GoogleService-Info.plist */; };
 		1FBDBB991B743C5300067589 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB981B743C5300067589 /* main.m */; };
 		1FBDBB9C1B743C5300067589 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB9B1B743C5300067589 /* AppDelegate.m */; };
 		1FBDBB9F1B743C5300067589 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBDBB9E1B743C5300067589 /* ViewController.m */; };
@@ -32,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		1F48AC641B7C430A00CFBD43 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		1F77A3971B7C2EC50083EE3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1FBDBB931B743C5300067589 /* Google GCM Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google GCM Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBDBB971B743C5300067589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBDBB981B743C5300067589 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 		1FBDBB961B743C5300067589 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F77A3971B7C2EC50083EE3E /* GoogleService-Info.plist */,
 				1FBDBB971B743C5300067589 /* Info.plist */,
 				1FBDBB981B743C5300067589 /* main.m */,
 			);
@@ -236,7 +233,6 @@
 			files = (
 				1FBDBBA21B743C5300067589 /* Main.storyboard in Resources */,
 				1FBDBBA71B743C5300067589 /* LaunchScreen.xib in Resources */,
-				1F77A3981B7C2EC50083EE3E /* GoogleService-Info.plist in Resources */,
 				1FBDBBBD1B74401900067589 /* Podfile in Resources */,
 				1FBDBBA41B743C5300067589 /* Images.xcassets in Resources */,
 				1F48AC651B7C430A00CFBD43 /* GoogleService-Info.plist in Resources */,
@@ -421,6 +417,27 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Google GCM Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"GTM_NSDictionary+URLArguments\"",
+					"-l\"GTM_NSScannerJSON\"",
+					"-l\"GTM_NSStringHTML\"",
+					"-l\"GTM_NSStringXML\"",
+					"-l\"GTM_Regex\"",
+					"-l\"GTM_RoundedRectPath\"",
+					"-l\"GTM_StringEncoding\"",
+					"-l\"GTM_SystemVersion\"",
+					"-l\"GTM_UIFont+LineHeight\"",
+					"-l\"GTM_core\"",
+					"-l\"GTM_iPhone\"",
+					"-l\"GcmLib\"",
+					"-l\"ProtocolBuffers\"",
+					"-l\"sqlite3\"",
+					"-framework",
+					"\"AddressBook\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
